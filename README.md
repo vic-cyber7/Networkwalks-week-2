@@ -129,10 +129,8 @@ For the second activity, I used **Zenmap** to perform network discovery on my lo
 I first used the Windows `ipconfig` command to find my local IP address and subnet. I then entered the subnet into Zenmap and selected **Ping Scan** to identify active hosts.
 Example identified 
 ```
-10.0.0.1
-10.0.0.4
-10.0.0.19
-10.0.0.5
+10.167.140.121
+10.167.140.35
 ```
 The example also identified with MAC addresses. 
  After completing the scan, I opened the **Topology** section in Zenmap, enabled the legend, and exported the network topology as a PDF as required by the practical task.
@@ -240,4 +238,36 @@ Overall, the activities improved my practical understanding of reconnaissance an
 </details>
 
 ### Zenmap Evidence 
+<details>
+<summary>Click to view Zenmap Ping Scan Result</summary>
 
+<img width="1920" height="1008" alt="Zenmap Ping Scan Result" src="https://github.com/user-attachments/assets/b3b6846d-9370-4f4e-8c3a-d4e1f70e75a7" />
+
+</details>
+
+<details>
+<summary>Click to view Zenmap Host Discovery Result</summary>
+
+<img width="1920" height="1008" alt="Zenmap Host Discovery Result" src="https://github.com/user-attachments/assets/9282457b-8b27-4956-84cd-2c4288d0f691" />
+
+<details>
+<summary>Click to view Zenmap Network Topology</summary>
+
+<details>
+<summary>Click to view Zenmap Network Topology</summary>
+
+<img width="1920" height="1008" alt="Zenmap Network Topology" src="https://github.com/user-attachments/assets/7a90c3ff-2b29-4d4e-9790-6a210d9e3f20" />
+
+</details>
+
+# ### Knowledge Assessment
+
+This practical assessed my ability to:
+
+* Perform **network discovery and scanning** using Zenmap.
+* Identify active hosts, IP addresses, MAC addresses, and detected services.
+* Interpret and document **network scan results**.
+* Create a basic **network topology** from scan results.
+* Apply practical cybersecurity knowledge in an **authorized lab environment**.
+* Provide **clear evidence** through screenshots and scan results.
+* Maintain **professional documentation** of the activities, findings, and observations.
